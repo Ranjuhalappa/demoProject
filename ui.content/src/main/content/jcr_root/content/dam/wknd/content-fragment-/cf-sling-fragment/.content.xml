@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4d9b8162-9d68-4f44-aec0-c78f6eb3e1f8">
+    <jcr:content
+        cq:name="cf-sling-fragment"
+        cq:parentPath="/content/dam/wknd/content-fragment-"
+        jcr:description=""
+        jcr:lastModified="{Date}2022-04-14T12:33:02.977+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="CF sling fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-04-14T12:33:02.978+05:30">
+        <data
+            cq:model="/conf/CF Fragment/settings/dam/cfm/models/cf-fragment"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                _x0039_113255861="{Long}9113255861"
+                _x0039_113255861_x0040_LastModified="{Date}2022-04-14T12:33:02.940+05:30"
+                Ranjitha="Ranjitha"
+                Ranjitha_x0040_LastModified="{Date}2022-04-14T12:33:02.938+05:30"
+                SH="S H"
+                SH_x0040_LastModified="{Date}2022-04-14T12:33:02.939+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

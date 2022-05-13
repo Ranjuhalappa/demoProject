@@ -1,0 +1,19 @@
+<div>All component</div>
+<sly data-sly-use.sample="com.adobe.aem.guides.wknd.core.models.IncludeComponents">
+    <div data-sly-list="${sample.getList}">
+        richtext: ${item.richText}
+        textid: ${item.textId}
+        <div>Button component</div>
+        button text: ${item.text}
+        link: ${item.link}
+        Icon: ${item.icon}
+        id: ${item.id}
+
+        <div>Title component</div>
+        titleField: ${item.titleField}
+        type: ${item.type}
+        defaultType: ${item.defaultType}
+        titleLink: ${item.titleLink}
+        titleId: ${item.titleId}
+    </div>
+</sly>

@@ -1,0 +1,11 @@
+Nested Multi
+<div data-sly-use.test="com.adobe.aem.guides.wknd.core.models.NestedMulti">
+    <div data-sly-list.multi="${test.myUserSubmenu}">
+        <div>Title:${multi.entertitle}</div>
+        <div>Link URL:${multi.enterlink}</div>
+        <div data-sly-list.nested="${multi.myUserSub}">
+            <div>Title:${nested.typetitleNested}</div>
+            <div>Link URL:${nested.typelinkNested}</div>
+        </div>
+    </div>
+</div>
